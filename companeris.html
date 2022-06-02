@@ -9,31 +9,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Compañeris - Nieri</title>
 </head>
 
 <body>
     <header>
-        <div class="encabezado">
-            <div class="logo">
-                <img src="multimedia/imagenes/logo-png.png" alt="logo de nieri"> <!-- Logo de nieri (No lo tengo)-->
-            </div>
-            <div class="titulo">
-                <h1>Ñeri Cocina</h1>
-            </div>
-            <nav class="tabla-enlances">
-                <div class="enlaces">
-                    <a href="index.html">Inicio</a>
-                    <a href="eventos.html">Eventos</a>
-                    <a href="companeris.html">Compañeris</a>
-                    <a href="galeria.html">Galeria</a>
-                    <a href="contacto.html">Contacto</a>
+        <nav class="navbar navbar-expand-lg  bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo">
+                        <img src="multimedia/imagenes/logo-png.png" alt="logo de nieri">
+                </a>
+                <div class="titulo">
+                    <h1>Ñeri Cocina</h1>
                 </div>
-            </nav>
-        </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse encabezado" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="companeris.html">Compañeris</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
-    <section class="ordenar">
-        <h1>Lugares que no te podes perder</h1>
+        <section class="cuerpo-evento">
+            <div class="grid-container">
+                <div class="grid-item "><img src="multimedia/eventos/argot-plato.jpg" alt="" class="foto"></div>
+                <div class="grid-item">
+                    <p class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore reprehenderit ipsam harum nisi, ipsum voluptas recusandae repellendus quia quis minima quaerat fugit, eum velit aliquam accusamus. Accusamus, suscipit voluptatum!
+                    Nesciunt rerum natus aut assumenda eaque voluptatem inventore, consectetur laborum doloribus ducimus in corrupti asperiores dolorem. Rem minus, quasi excepturi autem fuga ex, dolorem, eligendi a at exercitationem ipsa dicta!
+                    Sunt illum tempore excepturi facilis tenetur repellendus corrupti minima, reprehenderit perferendis consectetur quas perspiciatis rem cupiditate provident laborum eveniet vitae veniam qui dolorum minus error. Deserunt exercitationem ullam repellendus numquam.
+                    Accusamus distinctio ratione tempora officiis praesentium commodi id labore aliquid dolores dolore? Reprehenderit obcaecati explicabo, nihil ea enim natus eveniet eligendi tempore, quas deserunt doloremque, quia perspiciatis veniam non pariatur.</p>
+                </div>
+                <div class="grid-item foto"><img src="multimedia/eventos/cancha-evento.jpg" alt="" class="foto"> </div>
+                <div class="grid-item">
+                    <p class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore reprehenderit ipsam harum nisi, ipsum voluptas recusandae repellendus quia quis minima quaerat fugit, eum velit aliquam accusamus. Accusamus, suscipit voluptatum!
+                        Nesciunt rerum natus aut assumenda eaque voluptatem inventore, consectetur laborum doloribus ducimus in corrupti asperiores dolorem. Rem minus, quasi excepturi autem fuga ex, dolorem, eligendi a at exercitationem ipsa dicta!
+                        Sunt illum tempore excepturi facilis tenetur repellendus corrupti minima, reprehenderit perferendis consectetur quas perspiciatis rem cupiditate provident laborum eveniet vitae veniam qui dolorum minus error. Deserunt exercitationem ullam repellendus numquam.
+                        Accusamus distinctio ratione tempora officiis praesentium commodi id labore aliquid dolores dolore? Reprehenderit obcaecati explicabo, nihil ea enim natus eveniet eligendi tempore, quas deserunt doloremque, quia perspiciatis veniam non pariatur.</p>
+                </div>
+                <div class="grid-item"><img src="multimedia/eventos/casawalsh-plato.jpg" alt="" class="foto"> </div>
+                <div class="grid-item">
+                    <p class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore reprehenderit ipsam harum nisi, ipsum voluptas recusandae repellendus quia quis minima quaerat fugit, eum velit aliquam accusamus. Accusamus, suscipit voluptatum!
+                        Nesciunt rerum natus aut assumenda eaque voluptatem inventore, consectetur laborum doloribus ducimus in corrupti asperiores dolorem. Rem minus, quasi excepturi autem fuga ex, dolorem, eligendi a at exercitationem ipsa dicta!
+                        Sunt illum tempore excepturi facilis tenetur repellendus corrupti minima, reprehenderit perferendis consectetur quas perspiciatis rem cupiditate provident laborum eveniet vitae veniam qui dolorum minus error. Deserunt exercitationem ullam repellendus numquam.
+                        Accusamus distinctio ratione tempora officiis praesentium commodi id labore aliquid dolores dolore? Reprehenderit obcaecati explicabo, nihil ea enim natus eveniet eligendi tempore, quas deserunt doloremque, quia perspiciatis veniam non pariatur.</p>
+                </div>
+                <div class="grid-item"><img src="multimedia/eventos/piers-plato.jpg" alt="" class="foto"> </div>
+                <div class="grid-item">
+                    <p class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore reprehenderit ipsam harum nisi, ipsum voluptas recusandae repellendus quia quis minima quaerat fugit, eum velit aliquam accusamus. Accusamus, suscipit voluptatum!
+                        Nesciunt rerum natus aut assumenda eaque voluptatem inventore, consectetur laborum doloribus ducimus in corrupti asperiores dolorem. Rem minus, quasi excepturi autem fuga ex, dolorem, eligendi a at exercitationem ipsa dicta!
+                        Sunt illum tempore excepturi facilis tenetur repellendus corrupti minima, reprehenderit perferendis consectetur quas perspiciatis rem cupiditate provident laborum eveniet vitae veniam qui dolorum minus error. Deserunt exercitationem ullam repellendus numquam.
+                        Accusamus distinctio ratione tempora officiis praesentium commodi id labore aliquid dolores dolore? Reprehenderit obcaecati explicabo, nihil ea enim natus eveniet eligendi tempore, quas deserunt doloremque, quia perspiciatis veniam non pariatur.</p>
+                </div>
+            </div>
     </section>
     <footer>
         <nav>
@@ -46,6 +95,9 @@
             </div>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
