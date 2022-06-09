@@ -1,0 +1,6 @@
+@mixin texto($fondo, $borde, $relleno) {
+    background-color: $fondo;
+    border: $borde;
+    padding: $relleno;
+    
+}

@@ -1,0 +1,32 @@
+/* Cuerpo */
+@import '../base/extends';
+@import '../base/mixins';
+.ordenar {
+   @extend %cuerpo;
+    height: 100vh;
+
+    .grid-container-inicio {
+        display: grid;
+        grid-template-rows: 3rem 40rem;
+        grid-template-columns: 20rem 60rem;
+        gap: 1rem;
+
+        .somos {
+            grid-column: 1/3;
+            @extend %letraB;
+        }
+
+        .texto-inicio {
+            @include texto (rgb(212, 88, 43, 0.836), 3px solid #ff9700, 10px);
+            @extend %letraB;
+            
+        }
+        .video-inicio {
+            grid-column: 2/3;
+            .video-principal {
+                width: 100%;
+            }
+        }
+    }
+}
+/* Fin de Cuerpo */

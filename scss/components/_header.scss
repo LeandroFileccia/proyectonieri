@@ -1,0 +1,41 @@
+/* Encabezado */
+@import '../base/extends';
+.encabezado {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .animacion:hover {
+    animation: rotation 3s infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg) scale(1.5);
+    }
+    to {
+      transform: rotate(359deg) scale(1.5);
+    }
+  }
+  .titulo {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  
+  .titulo:hover {
+    @extend %animacion;
+  }
+  
+  .nav-item:hover {
+    @extend %animacion;
+  }
+  
+  /* Fin de encabezado */

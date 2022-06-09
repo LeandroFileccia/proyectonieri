@@ -1,0 +1,22 @@
+/* Eventos */
+@import '../base/extends';
+.cuerpo-evento {
+    @extend %cuerpo;
+    .grid-container {
+        display: grid;
+        grid-template-rows: 360px 360px 360px 360px;
+        grid-template-columns: repeat(2, 530px);
+        gap: 10px;
+        margin: 20px;
+        .comentario {
+            @include texto (rgb(212, 88, 43, 0.836), 2px solid #ff9700, 4px);
+            @extend %letraB;
+            
+        }
+        .foto {
+            @extend %foto;
+        }
+    }
+}
+
+/* Fin de Eventos */

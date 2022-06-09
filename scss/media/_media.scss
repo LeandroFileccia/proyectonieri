@@ -1,0 +1,30 @@
+
+@media (max-width: 576px) {
+    .ordenar {
+        background-image: url('../multimedia/imagenes/IMG-20211023-WA0036.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 100%;
+    }
+
+    .grid-container-inicio {
+        display: block;
+
+    }
+
+    .somos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cuerpo-evento {
+        background-image: url('../multimedia/imagenes/IMG-20211023-WA0036.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .grid-container {
+        display: block;
+    }
+}

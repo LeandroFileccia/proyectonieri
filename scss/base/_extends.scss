@@ -1,0 +1,29 @@
+%cuerpo{
+    background-image: url('../multimedia/imagenes/IMG-20211023-WA0036.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+%foto{
+    border: 2px solid black;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+}
+
+%letraB{
+    color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: large;
+}
+
+%animacion{
+    transition: all 2s;
+            transform: scale(1.5);
+}
