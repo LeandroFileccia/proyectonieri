@@ -290,7 +290,7 @@ form .btn {
     background-size: cover;
   }
   .grid-container {
-    display: block;
+    display: block !important;
   }
 }
 

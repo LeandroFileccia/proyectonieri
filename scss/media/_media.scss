@@ -14,12 +14,7 @@
             display: flex;
             justify-content: center;
         }
-    //     .texto-inicio{
-    //         width: 100%;
-    //     }
-    //     .video-principal{
-    //         width: 100%;
-    //     }
+   
      }
     .cuerpo-evento {
         background-image: url('../multimedia/imagenes/IMG-20211023-WA0036.jpg');
@@ -28,6 +23,8 @@
     }
 
     .grid-container {
-        display: block;
+        display: block !important;
+        
     }
+    
 }
